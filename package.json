@@ -1,7 +1,7 @@
 {
   "name": "sterling-barnacle",
-  "version": "0.1.0",
-  "description": "some description.",
+  "version": "1.0.0",
+  "description": "Integrates frontend and backend for managing tasks into one application.",
   "scripts": {
     "build": "tsc && cpx 'node_modules/eximious-barnacle/dist/*' dist/",
     "start": "node dist/index.js"
