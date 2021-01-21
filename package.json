@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "some description.",
   "scripts": {
-    "build": "ng build --base-href ./"
+    "build": "tsc"
   },
+  "files": ["/dist/"],
   "repository": {
     "type": "git",
     "url": "https://github.com/axelkr/sterling-barnacle.git"
