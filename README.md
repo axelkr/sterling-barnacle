@@ -1,1 +1,1 @@
-# sterling-barnacle
+# Heijunka board as single page application

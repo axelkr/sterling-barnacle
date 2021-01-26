@@ -12,7 +12,7 @@ app.get('/',function(req,res) {
   res.sendFile(path.join(__dirname+'/index.html'));
 });
 app.listen(process.env.port || 4203);
-console.log('Running at Port 4200');
+console.log('Running at Port 4203');
 
 const db = new Database("objectEventStore.db");
 const runServer = new Server(db);
