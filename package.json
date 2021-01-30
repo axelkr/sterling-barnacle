@@ -1,6 +1,6 @@
 {
   "name": "sterling-barnacle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Integrates frontend and backend for managing tasks into one application.",
   "scripts": {
     "build": "tsc && cpx 'node_modules/eximious-barnacle/dist/*' dist/",
@@ -24,7 +24,7 @@
     "typescript": "~4.1.3"
   },
   "dependencies": {
-    "eximious-barnacle": "^2.0.0",
+    "eximious-barnacle": "^2.0.1",
     "express": "^4.17.1",
     "happy-barnacle": "^1.1.4"
   }
