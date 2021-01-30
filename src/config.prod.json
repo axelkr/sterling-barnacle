@@ -8,5 +8,6 @@
      "backend": {
          "url" : "http://localhost",
          "port":8123
-     }
+     },
+     "title":"Heijunka"
 }
