@@ -1,0 +1,12 @@
+{
+    "env": {
+        "name": "prod"
+     },
+     "frontend": {
+         "port":4204
+     },
+     "backend": {
+         "url" : "http://localhost",
+         "port":8123
+     }
+}
