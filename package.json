@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Integrates frontend and backend for managing tasks into one application.",
   "scripts": {
-    "build": "tsc && cpx 'node_modules/eximious-barnacle/dist/*' dist/ && cpx src/config.prod.json dist/assets/config/",
+    "build": "tsc && cpx 'node_modules/eximious-barnacle/dist/*' dist/ && cpx 'node_modules/eximious-barnacle/dist/assets/**/*' dist/assets && cpx src/config.prod.json dist/assets/config/ ",
     "start": "node dist/index.js"
   },
   "files": [
