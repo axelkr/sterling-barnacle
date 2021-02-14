@@ -18,6 +18,7 @@ const dbFile = path.join(appDirectory,"objectEventStore.db");
 const app = express();
 // ---- SERVE STATIC FILES ---- //
 app.get('*.*.*', express.static(_app_folder, {maxAge: '1y'}));
+app.use('/assets',express.static(_app_folder+'/assets', {maxAge: '1y'}));
 
 app.get('/',function(req,res) {
   res.sendFile(path.join(__dirname+'/index.html'));
