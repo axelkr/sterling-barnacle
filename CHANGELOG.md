@@ -1,3 +1,6 @@
+# v1.1.1
+- latest packages
+
 # v1.1.0
 - set title of application
 
