@@ -13,7 +13,7 @@ if (!fs.existsSync(appDirectory)) {
   fs.mkdirSync(appDirectory);
 }
 
-const dbFile = path.join(appDirectory, "objectEventStore.db");
+const dbFile = path.join(appDirectory, "objectEventStoreWebSPA.db");
 
 const app = express();
 // ---- SERVE STATIC FILES ---- //
