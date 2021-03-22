@@ -3,7 +3,7 @@ logs
 *.log
 npm-debug.log*
 lerna-debug.log*
-
+package-lock.json
 # database files
 /*.db
 
